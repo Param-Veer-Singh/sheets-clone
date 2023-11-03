@@ -1,0 +1,52 @@
+.options {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    padding: 20px 30px;
+    flex-wrap: nowrap;
+    /* width: 60vw ; */
+    /* margin: auto; */
+    align-items: center;
+}
+.options input, .options select {
+    width: 100px;
+}
+.options .material-icons {
+    font-size: 20px !important;
+}
+
+.bottom-section{ 
+    height: 2rem;
+    display: flex;
+    gap: 10px;
+    margin: 0px 20px 20px ;
+    align-items: center;
+}
+.bottom-section input {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#active-cell {
+    background-color: #ededed;
+    padding: 10px;
+}
+
+.option-btn {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+.option-btn:hover {
+    background-color: #ededed;
+}
+
+.hidden-input {
+    width: 0px !important; 
+    height: 0px !important;
+    opacity: 0;
+    border: none ;
+}
+.hidden-input:checked + label {
+    background-color: #ededed;
+}

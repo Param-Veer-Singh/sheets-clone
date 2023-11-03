@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #ecf0f1; */
+}
+.root-container{
+    width: 100vw;
+    height: 80vh;
+    overflow: scroll;
+}
+.cell{
+    min-width: 150px;
+    padding: 5px;
+    border: 1px solid #C4C7C5 ;
+}
+.header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: fit-content;
+    background-color: #fff;
+}
+.header > div:first-child{
+    position: sticky !important;
+    left: 0;
+    z-index: 2;
+    background-color: #C4C7C5;
+}
+.serialNo{
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+}
+.sNo-Cell, .header-cell{
+    text-align: center;
+}
+.body{
+    display: flex;
+    width: fit-content;
+}
+.row{
+    display: flex;
+}
