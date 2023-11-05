@@ -36,9 +36,8 @@ function createRow(rowNumber) {
         
         cell.id = String.fromCharCode(64 + i) + rowNumber;
         
-        console.log(activeElement);
-        // cell.addEventListener("focus",onCellFocus);
-        // cell.addEventListener("input", onFormChange);
+        cell.addEventListener("focus",onCellFocus);
+        cell.addEventListener("input", onFormChange);
     }
     mainContainer.appendChild(row);
 }

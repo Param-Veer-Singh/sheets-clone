@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     /* background-color: #ecf0f1; */
+    box-sizing: border-box;
 }
 .root-container{
     width: 100vw;
@@ -9,8 +10,11 @@
     overflow: scroll;
 }
 .cell{
-    min-width: 150px;
+    height: 2rem;
+    width: 5rem;
+    /* min-width: 150px; */
     padding: 5px;
+    overflow: hidden;
     border: 1px solid #C4C7C5 ;
 }
 .header{
@@ -39,6 +43,9 @@
     display: flex;
     width: fit-content;
 }
+/* .main-cell{
+    
+} */
 .row{
     display: flex;
 }

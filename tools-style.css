@@ -30,6 +30,9 @@
 #active-cell {
     background-color: #ededed;
     padding: 10px;
+    height: 40px;
+    width: 50px;
+    align-items: center;
 }
 
 .option-btn {
